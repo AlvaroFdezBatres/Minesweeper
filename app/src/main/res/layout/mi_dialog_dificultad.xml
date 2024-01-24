@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="@color/design_default_color_primary">
+
+    <RadioGroup
+        android:id="@+id/agrupacion"
+        android:layout_width="277dp"
+        android:layout_height="148dp"
+        android:paddingLeft="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/principiante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nivel Principiante" />
+
+        <RadioButton
+            android:id="@+id/amateur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nivel Amateur" />
+
+        <RadioButton
+            android:id="@+id/avanzado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nivel Avanzado" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:text="Dificultad"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/agrupacion"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="VOLVER"
+        android:textColor="#800080"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/agrupacion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agrupacion" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

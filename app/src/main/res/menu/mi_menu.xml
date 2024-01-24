@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/inst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Instrucciones" />
+    <item
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Reiniciar el juego" />
+    <item
+        android:id="@+id/estiloBomba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/bomba"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/config"
+        android:title="Configura el juego" />
+</menu>
